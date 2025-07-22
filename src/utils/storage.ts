@@ -35,25 +35,36 @@ const defaultItems: ChecklistItem[] = [{
   title: 'Recite life values and principles',
   completed: false,
   lastUpdated: new Date().toISOString(),
-  details: `Values in Life:
-- Kindness: treat everyone with respect and compassion, offering help without expecting anything in return.
-- Humility: acknowledge my limits, admit mistakes, and give credit to others where it’s due.
-- Openness: be receptive to new ideas, people, and experiences without judgement or defensiveness.
-- Justice: act fairly and stand up for what’s right, even when it’s inconvenient or uncomfortable.
-- Growth: continuously seek to learn, improve, and develop — emotionally, intellectually, and spiritually.
-- Family: prioritize time, care, and love for my family, nurturing those bonds and supporting them through all seasons of life.`
-}, {
+  details: `
+1. Kindness: treat everyone with respect and compassion, offering help without expecting anything in return.
+
+2. Humility: acknowledge my limits, admit mistakes, and give credit to others where it’s due.
+
+3. Openness: be receptive to new ideas, people, and experiences without judgement or defensiveness.
+
+4. Justice: act fairly and stand up for what’s right, even when it’s inconvenient or uncomfortable.
+
+5. Growth: continuously seek to learn, improve, and develop — emotionally, intellectually, and spiritually.
+
+6. Family: prioritize time, care, and love for my family, nurturing those bonds and supporting them through all seasons of life.`
+},
+{
   id: '8',
   title: 'Recite work values and principles',
   completed: false,
   lastUpdated: new Date().toISOString(),
-  details: `Values in Work:
-- Trust: keep my promises, be honest, and protect confidentiality.
-- Stewardship: treat client’s resources and goals as though they were my own — responsibly, ethically, and with care.
-- Professionalism: uphold the highest standards in my work, communication, and demeanor, inspiring confidence in others.
-- Leadership: take initiative, guide others through uncertainty, and empower those around me to succeed.
-- Excellence: strive to deliver my best work, continuously improving and exceeding expectations where possible.`
-}, {
+  details: `
+1. Trust: keep my promises, be honest, and protect confidentiality.
+
+2. Stewardship: treat client’s resources and goals as though they were my own — responsibly, ethically, and with care.
+
+3. Professionalism: uphold the highest standards in my work, communication, and demeanor, inspiring confidence in others.
+
+4. Leadership: take initiative, guide others through uncertainty, and empower those around me to succeed.
+
+5. Excellence: strive to deliver my best work, continuously improving and exceeding expectations where possible.`
+}
+, {
   id: '9',
   title: 'Recite SkyPointe mission statement',
   completed: false,
