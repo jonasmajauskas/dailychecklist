@@ -61,17 +61,27 @@ export const getChecklistItems = (): ChecklistItem[] => {
   return storedItems ? JSON.parse(storedItems) : defaultItems;
 };
 // Save checklist items to localStorage
+export const resetChecklistItems = (
+  items: ChecklistItem[],
+): ChecklistItem[] => {
+  return items.map((item) => ({
+    ...item,
+    completed: false,
+    lastUpdated: new Date().toISOString(),
+  }))
+}
+// Save checklist items to localStorage
 export const saveChecklistItems = (items: ChecklistItem[]): void => {
-  localStorage.setItem('checklistItems', JSON.stringify(items));
-};
+  localStorage.setItem('checklistItems', JSON.stringify(items))
+}
 // Get check events from localStorage
 export const getCheckEvents = (): CheckEvent[] => {
-  const storedEvents = localStorage.getItem('checkEvents');
-  return storedEvents ? JSON.parse(storedEvents) : [];
-};
+  const storedEvents = localStorage.getItem('checkEvents')
+  return storedEvents ? JSON.parse(storedEvents) : []
+}
 // Save a new check event
 export const saveCheckEvent = (event: CheckEvent): void => {
-  const events = getCheckEvents();
-  events.push(event);
-  localStorage.setItem('checkEvents', JSON.stringify(events));
-};
+  const events = getCheckEvents()
+  events.push(event)
+  localStorage.setItem('checkEvents', JSON.stringify(events))
+}
