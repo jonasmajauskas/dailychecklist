@@ -32,7 +32,7 @@ export function ChecklistPage() {
     saveChecklistItems(updatedItems);
   };
   return <div>
-      <h2 className="text-2xl font-bold mb-6">Daily Checklist</h2>
+      <h2 className="text-2xl font-bold mb-6">Morning Checklist</h2>
       <ProgressBar items={items} />
       <div>
         {items.length === 0 ? <div className="text-center py-8 text-muted-foreground">

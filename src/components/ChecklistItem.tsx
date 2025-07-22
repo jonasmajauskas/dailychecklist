@@ -25,9 +25,6 @@ export function ChecklistItem({
                 {expanded ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               </button>}
           </div>
-          <p className="text-xs text-muted-foreground mt-1">
-            Last updated: {formatDate(item.lastUpdated)}
-          </p>
           {item.details && expanded && <div className="mt-3 p-3 bg-muted/30 rounded-md text-sm whitespace-pre-line">
               {item.details}
             </div>}
