@@ -1,13 +1,19 @@
-import React, { useEffect, useState, Component } from 'react';
+import { useEffect, useState } from 'react';
 import { ChecklistItem as ChecklistItemComponent } from '../components/ChecklistItem';
 import { ProgressBar } from '../components/ProgressBar';
 import { ChecklistItem, CheckEvent } from '../types';
-import { getChecklistItems, saveChecklistItems, saveCheckEvent } from '../utils/storage';
+import { getChecklistItems, saveChecklistItems, saveCheckEvent, resetChecklistItems, shouldResetToday } from '../utils/storage';
 export function ChecklistPage() {
   const [items, setItems] = useState<ChecklistItem[]>([]);
   useEffect(() => {
     setItems(getChecklistItems());
   }, []);
+  useEffect(() => {
+  if (shouldResetToday()) {
+    resetChecklistItems();
+  }
+  setItems(getChecklistItems());
+}, []);
   const handleToggle = (id: string) => {
     const updatedItems = items.map(item => {
       if (item.id === id) {
