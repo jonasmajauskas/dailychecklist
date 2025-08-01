@@ -18,17 +18,15 @@ const defaultItems: ChecklistItem[] = [
     completed: false,
     lastUpdated: new Date().toISOString(),
     details: `
-1. Kindness: treat everyone with respect and compassion, offering help without expecting anything in return.
+1. Kindness: treat everyone with respect and compassion.
 
-2. Humility: acknowledge my limits, admit mistakes, and give credit to others where it’s due.
+2. Openness: be receptive to new ideas, people, and experiences without judgement or defensiveness.
 
-3. Openness: be receptive to new ideas, people, and experiences without judgement or defensiveness.
+3. Justice: act fairly and stand up for what’s right.
 
-4. Justice: act fairly and stand up for what’s right, even when it’s inconvenient or uncomfortable.
+4. Growth: seek to learn, improve, and develop.
 
-5. Growth: continuously seek to learn, improve, and develop — emotionally, intellectually, and spiritually.
-
-6. Family: prioritize time, care, and love for my family, nurturing those bonds and supporting them through all seasons of life.`
+5. Family: prioritize time, care, and love for my family.`
   },
   {
     id: '8',
@@ -36,28 +34,22 @@ const defaultItems: ChecklistItem[] = [
     completed: false,
     lastUpdated: new Date().toISOString(),
     details: `
-1. Trust: keep my promises, be honest, and protect confidentiality.
+1. Excellence: strive to deliver my best work.
 
-2. Stewardship: treat client’s resources and goals as though they were my own — responsibly, ethically, and with care.
+2. Trust: keep my promises, be honest, and protect confidentiality.
 
-3. Professionalism: uphold the highest standards in my work, communication, and demeanor, inspiring confidence in others.
+3. Professionalism: uphold the highest standards in my work, communication, and demeanor.
 
 4. Leadership: take initiative, guide others through uncertainty, and empower those around me to succeed.
 
-5. Excellence: strive to deliver my best work, continuously improving and exceeding expectations where possible.`
+5. Stewardship: treat client’s resources responsibly, ethically, and with care.`
   },
   {
     id: '9',
     title: 'Recite SkyPointe mission statement',
     completed: false,
     lastUpdated: new Date().toISOString(),
-    details: `My mission is to live with purpose and integrity, continuously growing and learning while making a positive impact on those around me. I strive to balance achievement with well-being, to be present in each moment, and to leave every situation better than I found it. Through my actions and choices, I aim to create a meaningful legacy that inspires others to discover and fulfill their own potential.`
-  },
-  {
-    id: '10',
-    title: 'Review Dashboard Metrics',
-    completed: false,
-    lastUpdated: new Date().toISOString()
+    details: `We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.`
   }
 ];
 
