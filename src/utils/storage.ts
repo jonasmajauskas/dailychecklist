@@ -43,6 +43,12 @@ const defaultItems: ChecklistItem[] = [
 
 5. Stewardship: treat client’s resources responsibly, ethically, and with care.`
   },
+    {
+    id: '8',
+    title: 'Go for a walk',
+    completed: false,
+    lastUpdated: new Date().toISOString()
+  },
   {
     id: '8',
     title: 'Recite SkyPointe mission statement',
@@ -52,74 +58,19 @@ const defaultItems: ChecklistItem[] = [
   },
   {
     id: '9',
-    title: 'Practice 15-Sec Pitch',
+    title: 'Practice 15-Sec, 60-Sec, and 2-Min Pitch',
     completed: false,
-    lastUpdated: new Date().toISOString(),
-    details:
-      `I’m a financial advisor at Morgan Stanley who helps [target market] with $500k–$5M in investable assets grow and protect their wealth by creating a clear financial plan, avoiding costly mistakes, and providing proven guidance — so they feel confident, secure, and in control of their financial future.We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.`
+    lastUpdated: new Date().toISOString()
   },
-  {
+    {
     id: '10',
-    title: 'Practice 60-Sec Pitch',
+    title: 'Review advantages, objections, value and common questions',
     completed: false,
-    lastUpdated: new Date().toISOString(),
-    details:
-      `I’m part of a group called SkyPointe, and together we have over X years of experience helping people build financial independence, create the lifestyle they want, and make an impact that matters to them.
-
-A lot of the people I work with tell me they feel their money isn’t working as hard as they are — and I understand how frustrating that can be.
-
-That’s why we take a hands-on approach: getting to know your goals through deep discovery, sharing proven strategies we’ve learned over decades, and putting in the work with what we call ‘first-class grace and hustle’ to grow and protect your wealth.
-
-And while the numbers are important, what our clients really appreciate is the trust, security, and clarity they feel knowing they have a plan that adapts with them no matter how their career, the markets, or life itself changes.`
+    lastUpdated: new Date().toISOString()
   },
-  {
-    id: '11',
-    title: 'Practice 2-Min Pitch',
-    completed: false,
-    lastUpdated: new Date().toISOString(),
-    details:
-      `
-    **Hook (Personal & Relatable):**
-
-    Four years ago, I was in the same position as many of my clients — wondering if I was making the right moves with my money and feeling like my financial plan didn’t truly reflect the life I wanted. That experience shaped how I work with clients today — with clarity, trust, and a focus on what matters most to them.
-
-**Problem (Their Pain Points):**
-
-“Most people don’t fail to reach their financial goals because of lack of effort — they fall short because they don’t have a clear, disciplined plan that coordinates taxes, investments, and risk protection. Instead, their accounts are scattered, they may be working with multiple advisors, and no one is coordinating it into one strategy.
-
-And with markets, taxes, and inflation constantly shifting, that lack of coordination can quietly drain both money and opportunity. 
-
-**Solution (Your Process):**
-
-That’s where I come in. I work with [target market] who have $500k–$5M in investable assets to build and maintain a plan that consistently reduces taxes, protects income, and grows wealth.
-
-My process is proven, straightforward, and comprehensive
-
-- **Discovery** – We dig deep into your goals, challenges, and the life you truly want.
-- **Strategy** – We design a tailored plan with the right balance of growth, safety, and tax efficiency.
-- **Optimization** – We make proactive adjustments as markets and life change.
-- **Review** – We meet regularly to ensure your plan stays aligned and delivers results.”
-
-**Emotional Payoff (The Real Reason They Buy):**
-
-While the numbers matter, the real value is…
-
-- The comfort of knowing your family’s future is secure and protected from the unexpected.
-- The pride of seeing your money working for you instead of sitting idle.
-- The freedom to make life decisions based on what you want — not just what you can afford.
-- The advantage of saying yes to experiences today while feeling secure about tomorrow.
-- Knowing your child’s education is fully funded.
-- Taking a sabbatical or pursuing a passion project without sacrificing income.
-- Having a plan that brings confidence instead of a pit in your stomach when markets dip.
-
-**Close (Invite to Next Step):**
-
-If that’s the kind of relationship and process you’d value, let’s start with a discovery meeting — no pressure, no obligation — just a clear picture of where you are, where you want to be, and the most direct path to get there.
-    `
-  },
+  { id: '11', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
   { id: '12', title: 'Review economic metrics dashboard', completed: false, lastUpdated: new Date().toISOString() },
-  { id: '13', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
-  { id: '14', title: 'Read WSJ, Economist, TheWeek', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '13', title: 'Read WSJ, Economist, TheWeek', completed: false, lastUpdated: new Date().toISOString() },
 ];
 
 // ✅ Get checklist items from localStorage or use defaults
