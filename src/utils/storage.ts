@@ -50,27 +50,27 @@ const defaultItems: ChecklistItem[] = [
     lastUpdated: new Date().toISOString()
   },
   {
-    id: '8',
+    id: '9',
     title: 'Recite SkyPointe mission statement',
     completed: false,
     lastUpdated: new Date().toISOString(),
     details: `We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.`
   },
   {
-    id: '9',
+    id: '10',
     title: 'Practice 15-Sec, 60-Sec, and 2-Min Pitch',
     completed: false,
     lastUpdated: new Date().toISOString()
   },
     {
-    id: '10',
+    id: '11',
     title: 'Review advantages, objections, value and common questions',
     completed: false,
     lastUpdated: new Date().toISOString()
   },
-  { id: '11', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
-  { id: '12', title: 'Review economic metrics dashboard', completed: false, lastUpdated: new Date().toISOString() },
-  { id: '13', title: 'Read WSJ, Economist, TheWeek', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '12', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '13', title: 'Review economic metrics dashboard', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '14', title: 'Read WSJ, Economist, TheWeek', completed: false, lastUpdated: new Date().toISOString() },
 ];
 
 // ✅ Get checklist items from localStorage or use defaults
