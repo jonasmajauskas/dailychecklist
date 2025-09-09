@@ -45,16 +45,16 @@ const defaultItems: ChecklistItem[] = [
   },
     {
     id: '8',
-    title: 'Go for a walk',
-    completed: false,
-    lastUpdated: new Date().toISOString()
-  },
-  {
-    id: '9',
     title: 'Recite SkyPointe mission statement',
     completed: false,
     lastUpdated: new Date().toISOString(),
     details: `We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.`
+  },
+    {
+    id: '9',
+    title: 'Go for a walk',
+    completed: false,
+    lastUpdated: new Date().toISOString()
   },
   {
     id: '10',
