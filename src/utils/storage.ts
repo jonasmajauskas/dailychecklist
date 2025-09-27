@@ -19,13 +19,13 @@ const defaultItems: ChecklistItem[] = [
     details: `
 1. Kindness: treat everyone with respect and compassion.
 
-2. Openness: be receptive to new ideas, people, and experiences without judgement or defensiveness.
+2. Growth: seek to learn, improve, and develop by being open to new ideas, people, and experiences.
 
-3. Justice: act fairly and stand up for what’s right.
+3. Family: prioritize time, care, and love for my family.
 
-4. Growth: seek to learn, improve, and develop.
+4. Self Control: make deliberate choices, manage impulses, and follow through on commitments.
 
-5. Family: prioritize time, care, and love for my family.`
+5. Efficiency: use time, attention, and resources wisely to achieve meaningful results with minimal waste.`
   },
   {
     id: '7',
@@ -50,27 +50,9 @@ const defaultItems: ChecklistItem[] = [
     lastUpdated: new Date().toISOString(),
     details: `We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.`
   },
-    {
-    id: '9',
-    title: 'Go for a walk',
-    completed: false,
-    lastUpdated: new Date().toISOString()
-  },
-  {
-    id: '10',
-    title: 'Practice 15-Sec, 60-Sec, and 2-Min Pitch',
-    completed: false,
-    lastUpdated: new Date().toISOString()
-  },
-    {
-    id: '11',
-    title: 'Review advantages, objections, value and common questions',
-    completed: false,
-    lastUpdated: new Date().toISOString()
-  },
-  { id: '12', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
-  { id: '13', title: 'Review economic metrics dashboard', completed: false, lastUpdated: new Date().toISOString() },
-  { id: '14', title: 'Read WSJ, Economist, TheWeek', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '9', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '10', title: 'Review economic metrics dashboard', completed: false, lastUpdated: new Date().toISOString() },
+  { id: '11', title: 'Read WSJ, FT, Economist, TheWeek', completed: false, lastUpdated: new Date().toISOString() },
 ];
 
 // ✅ Get checklist items from localStorage or use defaults
