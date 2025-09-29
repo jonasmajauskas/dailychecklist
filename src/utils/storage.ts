@@ -43,12 +43,21 @@ const defaultItems: ChecklistItem[] = [
 
 5. Stewardship: treat client’s resources responsibly, ethically, and with care.`
   },
-    {
+  {
     id: '8',
     title: 'Recite SkyPointe mission statement',
     completed: false,
     lastUpdated: new Date().toISOString(),
-    details: `We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.`
+    details: `We help our clients achieve financial independence, lifestyle aspiration, and a meaningful impact. 
+    
+    We achieve this through deep discovery, a lifelong learning and teaching, and first-class grace and hustle.
+    
+    Financial independence: control over your money where your money works for you, not vice versa.
+
+    Lifestyle aspirations: doing the things you love with the people you love on your time. Whether that's traveling the world, hanging with family by the lake, or seeing your kids achieve great things.
+
+    Meaningful impact: building a legacy, giving back, helping your community and others you are not so fortunate.
+    `
   },
   { id: '9', title: '10 Minute MathToGo', completed: false, lastUpdated: new Date().toISOString() },
   { id: '10', title: 'Review economic metrics dashboard', completed: false, lastUpdated: new Date().toISOString() },
